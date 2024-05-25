@@ -1,0 +1,113 @@
+{
+  "explorer.confirmDelete": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Bearded Theme Vivid Black",
+  "workbench.colorCustomizations": {
+    "[Bearded Theme Vivid Black]": {
+      "editor.background": "#000",
+      "sideBar.background": "#000",
+      "editorGutter.background": "#000",
+      "terminal.background": "#000",
+      "panel.background": "#000",
+      "statusBar.background": "#000",
+      "sideBarSectionHeader.background": "#000",
+      "activityBar.background": "#000",
+      "activityBar.foreground": "#ffffffd5",
+      "activityBar.inactiveForeground": "#ff3366cb",
+      "activityBarBadge.background": "#ff3366",
+      "badge.background": "#ff3366cb",
+      "tab.inactiveBackground": "#000",
+      "editorGroupHeader.tabsBackground": "#000"
+    },
+    "tab.activeBorder": "#ff3366",
+    "tab.activeBackground": "#ffffff18"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "SF Pro Display Regular",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontSize": 18,
+  "files.autoSave": "afterDelay",
+
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "workbench.panel.defaultLocation": "right",
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    " ": true
+  },
+  "emulator.emulatorPathLinux": "~/Android/Sdk/emulator",
+  "editor.inlineSuggest.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "cmake.configureOnOpen": true,
+  "php.validate.executablePath": "",
+  "go.alternateTools": {
+    "go": "/snap/go/current/bin/go"
+  },
+  "git.alwaysSignOff": true,
+  "git.autofetch": true,
+  "go.formatTool": "gofumpt",
+  "gopls": {
+    "formatting.gofumpt": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.external.linuxExec": "",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.settings.applyToAllProfiles": [
+
+  ]
+}
